@@ -1,0 +1,50 @@
+2026-10-02T20:26:49.745Z API 200 /api/config
+2026-10-02T20:26:49.809Z API 204 /api/px?p=%2F
+2026-10-02T20:26:50.313Z page opened
+2026-10-02T20:26:51.861Z QUOTA NOTE: 하루 1회 20페이지까지 무료
+2026-10-02T20:26:51.874Z BTN: PDF → HWPX 변환 (하루 1회 20페이지까지 무료) | PAYBTN: 결제하고 HWPX로 변환하기
+2026-10-02T20:26:51.874Z T0 upload start
+2026-10-02T20:26:52.801Z API 200 /api/restore/analyze
+2026-10-02T20:26:53.226Z analyze done ms 1352
+2026-10-02T20:26:54.117Z TILES:
+시험입력_가상보고서.pdf
+6쪽(글자 6 · 스캔 0) · 119KB · 약 10초
+요금 오늘 1회 무료 · 정식 300원 · 부가세 포함
+오늘 이용 1건 중 0건
+2026-10-02T20:26:54.122Z UPLOAD-ERROR: 
+2026-10-02T20:26:54.128Z WHY: 
+2026-10-02T20:26:54.142Z BTN: PDF → HWPX 변환 (하루 1회 20페이지까지 무료) | disabled= false
+2026-10-02T20:26:54.210Z clicked convert
+2026-10-02T20:26:55.338Z API 200 /api/restore/convert_hwpx
+2026-10-02T20:26:55.466Z CONVERT JSON keys restore_id,job_id,log,kind,analysis,size_bytes,notes,expires_in_seconds,quota restore_id rsdf5f7e2a4baa
+2026-10-02T20:26:55.813Z WAIT TEXT: PDF를 한글 문서로 바꾸는 중입니다 — 예상 약 10초
+          00:01
+2026-10-02T20:27:00.826Z convert done ms 6616
+2026-10-02T20:27:00.924Z RESULT HEAD:
+
+2026-10-02T20:27:00.927Z RESULT SUMMARY:
+
+2026-10-02T20:27:00.932Z WARNINGS:
+
+2026-10-02T20:27:00.941Z LOG TABLE:
+쪽	처리	글상자	글자	그림	도형	표	비고
+1	—	0	—	0	0	0	
+2	—	0	—	1	0	1	
+3	—	0	—	0	0	1	
+4	—	0	—	1	0	0	
+5	—	0	—	0	0	0	
+6	—	0	—	0	0	1
+2026-10-02T20:27:00.946Z TILES AFTER:
+시험입력_가상보고서.pdf
+6쪽(글자 6 · 스캔 0) · 119KB · 약 10초
+요금 300원 · 오늘 무료 사용함 · 부가세 포함
+오늘 이용 1건 중 1건
+2026-10-02T20:27:00.950Z QUOTA NOTE AFTER: 하루 1회 20페이지까지 무료
+2026-10-02T20:27:00.958Z BTN AFTER: PDF → HWPX 변환 (오늘 무료 사용함) | disabled= true
+2026-10-02T20:27:00.959Z download button btn-dl-big
+2026-10-02T20:27:00.999Z clicked download
+2026-10-02T20:27:01.293Z API 200 /api/restore/rsdf5f7e2a4baa/ticket
+2026-10-02T20:27:01.974Z DOWNLOADED download size 29430 TOTAL_ms 10099 analyze_ms 1352 convert_ms 6616 download_ms 1147
+2026-10-02T20:27:03.063Z BODY TAIL:
+
+DONE

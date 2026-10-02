@@ -1,0 +1,104 @@
+/* ==========================================================================
+   개선안 v1.0 (2026-10-02 · 클라우드 세션) — style.css 맨 끝(416행 뒤)에 덧붙인다.
+   기존 규칙은 지우지 않는다. 아래 규칙은 전부 「.products .tool-card」 안에서만 효과가 있어
+   다른 구역(유료 카드 .p-card, 가격표 등)은 바뀌지 않는다.
+   그림 파일 없이 CSS만으로 꾸민다(그림/제작기록.md — 힉스필드 잔액 0).
+
+   기존 규칙과 겹치는 부분(지우지 않고 아래에서 덮어쓴다):
+   - 원본 283~284행 .card{padding:30px 26px} → 아래 .products .tool-card 에서 padding·display 를 바꾼다
+   - 원본 290행 .card-link:hover{border-color:var(--green)} → 카드 색(--tone)으로 덮어쓴다
+   - 원본 294행 .card-go{display:inline-block;margin-top:14px;...} → 둥근 기능키로 덮어쓴다
+   - 원본 287~288·292행 .badge / .badge-live 는 다른 구역에서도 쓰일 수 있어 그대로 둔다(무료 도구 칸에서는 HTML에서 배지를 뺐다)
+   - 원본 211행까지 .reveal 지연이 8번째 카드까지만 있다 → 9번째 줄을 더한다
+   ========================================================================== */
+
+/* ---- 9번째 카드 등장 지연(원본 205~211행의 이어짐) ---- */
+.reveal.in .part:nth-child(9){transition-delay:.8s}
+
+/* ---- 카드 색 9가지: --tone(기능키·띠) / --tone-soft(아이콘 타일·무늬) / --tone-ink(기능키 글자) ---- */
+.tone-reflex {--tone:#E0A11B;--tone-soft:rgba(245,184,65,.18);--tone-ink:#132135}
+.tone-mask   {--tone:#0E6F52;--tone-soft:rgba(14,111,82,.13);--tone-ink:#FFFFFF}
+.tone-count  {--tone:#2F6FB5;--tone-soft:rgba(47,111,181,.13);--tone-ink:#FFFFFF}
+.tone-stamp  {--tone:#C23A2E;--tone-soft:rgba(194,58,46,.12);--tone-ink:#FFFFFF}
+.tone-menu   {--tone:#B9541D;--tone-soft:rgba(185,84,29,.13);--tone-ink:#FFFFFF}
+.tone-gacha  {--tone:#6B4FC8;--tone-soft:rgba(107,79,200,.13);--tone-ink:#FFFFFF}
+.tone-house  {--tone:#0F7372;--tone-soft:rgba(15,115,114,.13);--tone-ink:#FFFFFF}
+.tone-scale  {--tone:#1F3A8A;--tone-soft:rgba(31,58,138,.12);--tone-ink:#FFFFFF}
+.tone-solomon{--tone:#B98A16;--tone-soft:rgba(185,138,22,.15);--tone-ink:#132135}
+
+/* ---- 카드 틀: 세로로 쌓고 기능키를 맨 아래 오른쪽으로 밀어낸다 ---- */
+.products .tool-card{
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;
+  padding:30px 26px 22px;
+  border-top:0;                                /* 위쪽 선은 아래 색 띠가 대신한다 */
+}
+/* 위쪽 색 띠 */
+.products .tool-card::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:5px;
+  background:var(--tone);
+}
+/* 오른쪽 위 점무늬(카드마다 색만 다르다) */
+.products .tool-card::after{
+  content:"";position:absolute;top:-18px;right:-18px;width:132px;height:132px;
+  background-image:radial-gradient(var(--tone-soft) 2.2px,transparent 2.6px);
+  background-size:14px 14px;
+  -webkit-mask-image:radial-gradient(circle at 100% 0,#000 0,#000 35%,transparent 72%);
+          mask-image:radial-gradient(circle at 100% 0,#000 0,#000 35%,transparent 72%);
+  pointer-events:none;
+}
+.products .tool-card > *{position:relative;z-index:1}
+
+/* 아이콘을 색 타일 안에 */
+.products .tool-card .card-icon{
+  width:58px;height:58px;padding:11px;border-radius:16px;
+  color:var(--tone);background:var(--tone-soft);
+  margin-bottom:18px;
+  transition:transform .5s var(--ease);
+}
+.products .tool-card:hover .card-icon{transform:rotate(-6deg) scale(1.04)}
+
+.products .tool-card p{margin-bottom:22px}
+.products .tool-card:hover{border-color:var(--tone)}
+.products .tool-card:focus-visible{outline:3px solid var(--tone);outline-offset:3px}
+
+/* ---- 오른쪽 아래 기능키(카드 전체가 링크이므로 이것은 보이는 단추 모양일 뿐이다) ---- */
+.products .tool-card .card-go{
+  margin-top:auto;align-self:flex-end;
+  display:inline-flex;align-items:center;gap:8px;
+  padding:9px 14px 9px 18px;border-radius:999px;
+  background:var(--tone);color:var(--tone-ink);
+  font-size:.8rem;font-weight:600;letter-spacing:.04em;
+  box-shadow:0 6px 16px -8px var(--tone),inset 0 -2px 0 rgba(0,0,0,.12);
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease),filter .35s var(--ease);
+}
+.products .tool-card .card-go-arrow{
+  display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;
+  background:rgba(255,255,255,.22);
+  transition:transform .35s var(--ease);
+}
+.products .tool-card:hover .card-go,
+.products .tool-card:focus-visible .card-go{
+  color:var(--tone-ink);filter:brightness(1.06);
+  transform:translateY(-2px);box-shadow:0 10px 22px -8px var(--tone),inset 0 -2px 0 rgba(0,0,0,.12);
+}
+.products .tool-card:hover .card-go-arrow{transform:translateX(3px)}
+
+/* ---- 작은 표시(솔로몬의 「AI 사용」, 준비 중 카드) — 오른쪽 위 ---- */
+.products .tool-chip{
+  position:absolute;top:30px;right:22px;
+  font-size:.66rem;letter-spacing:.12em;
+  padding:4px 10px;border-radius:999px;
+  color:var(--ink);background:var(--tone-soft);border:1px solid var(--tone);  /* 글자는 진한 남색 — 옅은 바탕 위 대비 확보 */
+}
+
+/* ---- 준비 중 카드(선택지 B) ---- */
+.products .tool-card.is-soon{cursor:default}
+.products .tool-card.is-soon:hover{transform:none;border-color:var(--hairline-ink)}
+.products .tool-card.is-soon .card-go{background:transparent;color:var(--tone);border:1px dashed var(--tone);box-shadow:none}
+
+/* ---- 좁은 화면(원본 386행 @media 1024px 안에서 .cards 가 한 줄이 된다) ---- */
+@media (max-width:560px){
+  .products .tool-card{padding:26px 20px 18px}
+  .products .tool-card .card-go{font-size:.78rem;padding:8px 12px 8px 16px}
+}

@@ -1,0 +1,62 @@
+2026-10-02T20:10:20.885Z API 204 /api/px?p=%2F
+2026-10-02T20:10:21.293Z API 200 /api/config
+2026-10-02T20:10:21.795Z page opened
+2026-10-02T20:10:23.230Z QUOTA NOTE: 하루 1회 20페이지까지 무료
+2026-10-02T20:10:23.245Z BTN: PDF → PPTX 변환 (하루 1회 20페이지까지 무료) | PAYBTN: 결제하고 PPTX로 변환하기
+2026-10-02T20:10:23.245Z T0 upload start
+2026-10-02T20:10:24.199Z API 200 /api/restore/analyze
+2026-10-02T20:10:24.607Z analyze done ms 1362
+2026-10-02T20:10:25.522Z TILES:
+시험입력_가상보고서.pdf
+6쪽(글자 6 · 스캔 0) · 119KB · 약 10초
+요금 오늘 1회 무료 · 정식 300원 · 부가세 포함
+오늘 이용 1건 중 0건
+2026-10-02T20:10:25.529Z UPLOAD-ERROR: 
+2026-10-02T20:10:25.537Z WHY: 
+2026-10-02T20:10:25.548Z BTN: PDF → PPTX 변환 (하루 1회 20페이지까지 무료) | disabled= false
+2026-10-02T20:10:25.615Z clicked convert
+2026-10-02T20:10:27.194Z WAIT TEXT: PDF를 PPTX로 바꾸는 중입니다 — 예상 약 10초 00:01
+2026-10-02T20:10:28.364Z API 200 /api/restore/convert
+2026-10-02T20:25:29.760Z convert done ms 904145
+2026-10-02T20:25:29.847Z RESULT HEAD:
+
+2026-10-02T20:25:29.849Z RESULT SUMMARY:
+
+2026-10-02T20:25:29.852Z WARNINGS:
+
+2026-10-02T20:25:29.856Z LOG TABLE:
+쪽	처리	글상자	글자	그림	도형	표	비고
+1	글상자	12	241	0	0	0	
+2	글상자+그림	3	47	1	0	1	
+3	글상자	2	285	0	0	1	
+4	글상자+그림	3	139	1	0	0	
+5	글상자	9	309	0	0	0	
+6	글상자	2	35	0	0	1
+2026-10-02T20:25:29.860Z TILES AFTER:
+시험입력_가상보고서.pdf
+6쪽(글자 6 · 스캔 0) · 119KB · 약 10초
+요금 300원 · 오늘 무료 사용함 · 부가세 포함
+오늘 이용 1건 중 1건
+2026-10-02T20:25:29.863Z QUOTA NOTE AFTER: 하루 1회 20페이지까지 무료
+2026-10-02T20:25:29.871Z BTN AFTER: PDF → PPTX 변환 (오늘 무료 사용함) | disabled= true
+ERR page.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#btn-restore-download')[22m
+[2m    - locator resolved to <button hidden="" type="button" id="btn-restore-download" class="btn go small hidden">PPTX 내려받기</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    58 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+    at /tmp/claude-0/-home-user-stamp-tool-design/258c4c54-5902-5651-af9b-f8b748616231/scratchpad/s4.js:59:11 {
+  name: 'TimeoutError'
+}
