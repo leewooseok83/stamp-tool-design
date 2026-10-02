@@ -42,8 +42,8 @@ def check_banned():
     hits = []
     for p in [REPORT, SUMMARY, PLAN]:
         for i, line_txt in enumerate(p.read_text(encoding="utf-8").splitlines(), 1):
-            if "금지선" in line_txt or "정치·음란" in line_txt:
-                continue  # 규칙 자체를 인용한 줄은 제외
+            if "금지선" in line_txt or "정치·음란" in line_txt or "격투 아님" in line_txt:
+                continue  # 규칙 자체를 인용하거나 「해당 아님」을 판정한 줄은 제외
             for cat, words in BANNED.items():
                 for w in words:
                     if w in line_txt:
@@ -55,7 +55,7 @@ def check_numbers():
     body = REPORT.read_text(encoding="utf-8")
     summ = SUMMARY.read_text(encoding="utf-8")
     nums = {n.strip(".,") for n in re.findall(r"\d[\d,.]*%?", summ)}
-    nums = {n for n in nums if len(n) >= 2 and not n.startswith("0")}
+    nums = {n for n in nums if len(n) >= 2 and not n.startswith("0") and not re.fullmatch(r"26\d{4}", n)}  # 26xxxx 파일 날짜 제외
     missing = sorted(n for n in nums if n not in body)
     return nums, missing
 
@@ -74,12 +74,14 @@ def check_uncertain():
 
 def check_plan():
     t = PLAN.read_text(encoding="utf-8")
-    cards = re.split(r"^### ", t, flags=re.M)[1:]
+    cards = re.split(r"^#{2,3} (?=[A-Z]-\d)", t, flags=re.M)[1:]
     problems = []
     ids = []
     for c in cards:
         head = c.splitlines()[0]
         cid = head.split()[0]
+        if "결번" in head:
+            continue
         ids.append(cid)
         for cell in CELLS:
             if f"| {cell}" not in c:
