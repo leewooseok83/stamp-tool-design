@@ -24,6 +24,8 @@ OURS = [
     "홈페이지/개선안_index_무료도구구역.html",
     "홈페이지/개선안_style_추가.css",
     "홈페이지/개선안_설명.md",
+    "홈페이지/개선안_index_무료도구구역_도장카드제외.html",
+    "로컬 반영 안내(대표용).md",
 ]
 THEIRS = ["점검/원문_signok.txt", "점검/원문_stampng.txt", "점검/원문_donue.txt"]
 
