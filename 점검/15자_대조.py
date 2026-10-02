@@ -30,6 +30,11 @@ THEIRS = ["점검/원문_signok.txt", "점검/원문_stampng.txt", "점검/원�
 URL_RE = re.compile(r"https?://\S+|www\.\S+")
 
 
+def strip_header(text: str) -> str:
+    """원문 파일 머리의 수집 정보 줄(#으로 시작)과 쪽 구분 줄(===)은 경쟁사 글이 아니므로 뺀다."""
+    return "\n".join(l for l in text.splitlines() if not l.startswith(("#", "===")))
+
+
 def norm(text: str) -> str:
     text = URL_RE.sub("", text)
     return re.sub(r"\s+", "", text)
@@ -78,7 +83,7 @@ def main() -> int:
             continue
         ours = p.read_text(encoding="utf-8")
         for t in THEIRS:
-            hits = matches(ours, (ROOT / t).read_text(encoding="utf-8"))
+            hits = matches(ours, strip_header((ROOT / t).read_text(encoding="utf-8")))
             total += len(hits)
             print(f"{o} × {t}: {len(hits)}건")
             for h in hits:
