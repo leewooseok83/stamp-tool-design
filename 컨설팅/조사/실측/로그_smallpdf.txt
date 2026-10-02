@@ -1,0 +1,88 @@
+2026-10-02T20:21:31.489Z status 200 https://smallpdf.com/kr/pdf-to-ppt
+2026-10-02T20:21:36.597Z TITLE PDF PPT 변환기 - 무료
+2026-10-02T20:21:36.629Z TEXT:
+도구
+압축
+변환하기
+병합
+편집
+서명
+AI PDF
+이용 요금
+팀
+로그인
+무료 체험
+홈
+›
+PDF PPT변환
+PDF PPT 변환
+파일 선택
+또는 파일을 여기로 끌어 놓으세요
+빠르고 안전한 무료 변환기로 PDF를 PPT로 변환하세요. 설치나 계정 생성은 필요 없어요. 어떤 기기와 운영체제에서나 사용할 수 있어요.
+몇 초 만에 PDF를 PPT로 변환
+2013년부터 10억 명이 넘는 사용자가 신뢰해 왔어요
+GDPR 준수 및 ISO/IEC 27001 인증 변환기
+PDF를 편집 가능한 PowerPoint 슬라이드로 변환하기
+PDF를 PPTX로 간편하게 변환하세요
+프레젠테이션을 처음부터 다시 만들 필요 없이, 서식을 유지한 채 PDF를 완전히 편집 가능한 PowerPoint 슬라이드로 바꿀 수 있어요. PDF를 업로드해 변환한 다음 새 PPT 파일로 계속 작업하세요.
+언제 어디서나 변환
+Mac, Windows, Linux, iPhone, Android의 브라우저에서 PDF를 PowerPoint로 변환하세요. 별도 설치는 필요 없어요.
+여러 PDF를 한 번에 변환
+PDF를 하나씩 차례로 업로드할 필요는 없어요. Smallpdf Pro(7일 무료 체험 기간 동안 사용 가능)를 이용하면 여러 PDF를 한 번에 업로드해 모두 동시에 변환할 수 있어요.
+처음부터 끝까지 안전해요
+파일은 TLS 암호화로 보호됩니다. 파일은 1시간 후 자동으로 삭제됩니다. PDF를 PPTX로 변환하는 전 과정이 안전하니 안심하고 이용하세요.
+인증된 보안 및 GDPR 준수
+Smallpdf는 ISO/IEC 27001 인증을 받았으며 GDPR 준수를 따릅니다. 최고 수준의 개인정보 보호 및 보안 기준을 충족하므로 데이터를 안전하게 보호하고 직접 관리할 수 있어요.
+클라우드 스토리지로 바로 업로드
+변환된 슬라이드를 클라우드 스토리지에 바로 업로드하세요. Smallpdf는 Google Drive, Dropbox, Microsoft OneDrive와 연동돼요.
+온라인에서 PDF를 PPT로 변환하는 방법
+Smallpdf의 무료 PDF to PPT 변환기에 파일을 업로드하거나 드래그 앤 드롭하세요.
+“기본” 변환과 파일에서 직접 텍스트를 편집하는 방식(Pro 기능) 중에서 선택하세요.
+‘Convert’를 클릭하면 몇 초 만에 PPTX 파일이 준비돼요.
+변환된 PowerPoint 파일을 다운로드하거나 공유하세요.
+이 도구 평가
+4.7 / 5 - 168,028 투표
+압축하기
+PDF 압축
+변환하기
+PDF 변환기
+PDF OCR 변환
+PDF를 PDF/A로 변환
+PDF를 이미지로 변환
+PDF JPG 변환
+PDF를 PNG로 변환
+이미지를 PDF로 변환
+JPG PDF 변환
+PDF를 Office 문서로 변환
+PDF 워드 변환
+PDF 엑셀 변환
+PDF PPT변환
+Office 문서를 PDF로 변환
+워드 PDF 변환
+엑셀 PDF 변환
+PPT PDF 변환
+OpenOffice를 PDF로 변환
+ODT를 PDF로 변환
+PDF로 변환
+TXT를 PDF로 변환
+RTF를 PDF로 변환
+HTML을 PDF로 변환
+EPUB을 PDF로 
+2026-10-02T20:21:36.644Z file inputs 1
+2026-10-02T20:21:36.720Z file set
+2026-10-02T20:21:41.726Z [0s] visible text: 압축하기 변환하기 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:21:41.763Z clicking "변환하기"
+2026-10-02T20:22:14.276Z [20s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:22:46.646Z [40s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:23:18.989Z [60s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:23:51.325Z [80s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:24:23.662Z [100s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:24:55.945Z [120s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:25:28.253Z [140s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:25:51.889Z [160s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:26:12.248Z [180s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:26:32.568Z [200s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:26:52.880Z [220s] visible text: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+2026-10-02T20:27:08.286Z NO DOWNLOAD; url https://smallpdf.com/kr/pdf-to-ppt#r=convert-to-powerpoint 
+FINAL TEXT: 압축하기 변환하기 PDF 변환 프로그램 PDF Word PDF Excel PDF PowerPoint PDF 이미지 PDF PDF/A PDF OCR 변환 정리 편집 서명 AI PDF 더 보기 문서 계정 PDF PowerPoint 무료 체험 로그인 더 많은 파일 추가 시험입력_가상보고서.pdf (122kB) PowerPoint 형식으로 변환 다른 형식 선택 기본 변환 PDF에 있는 선택 가능한 텍스트를 편집 가능한 형식으로 변환합니다. OCR을 활용한 고급 변환 이미지나 스캔한 문서의 텍스트를 포함해 모든 텍스트를 편집 가능하게 바꿀 수 있습니다. 또는 PDF에서 바로 편집 ⚡️ 더 빠르게 변환 없이 PDF에서 바로 텍스트를 편집하세요 변환하기
+DONE

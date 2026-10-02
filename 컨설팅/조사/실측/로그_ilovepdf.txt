@@ -1,0 +1,23 @@
+2026-10-02T20:21:31.963Z status 200 https://www.ilovepdf.com/ko/pdf_to_powerpoint
+2026-10-02T20:21:37.097Z TITLE 몇 초 이내에 PDF를 PPT와 PPTX로 변환하세요
+2026-10-02T20:21:37.129Z TEXT:
+PDF 합치기
+PDF 분할
+PDF 압축
+PDF 변환
+모든 PDF 도구
+로그인
+가입하기
+PDF에서 파워포인트로 변환
+PDF를 파워포인트로 빠르게 변환하세요.
+Solid Documents운영.
+PDF 파일 선택
+또는 PDF 파일들을 여기에 두기
+© iLovePDF 2026 ® - 여러분의 PDF 에디터
+2026-10-02T20:21:37.139Z file inputs 1
+2026-10-02T20:21:37.197Z file set
+2026-10-02T20:21:42.203Z [0s] visible text: PDF 합치기 PDF 분할 PDF 압축 PDF 변환 모든 PDF 도구 로그인 가입하기 1 시험입력_가상보고서.pdf PDF 파워포인트로 변환 PPTX로 변환 파일 더 추가하기
+2026-10-02T20:21:42.269Z clicking "PPTX로 변환"
+2026-10-02T20:21:50.493Z clicking dl "파워포인트 다운로드"
+2026-10-02T20:21:51.154Z DOWNLOADED download 31440 ms_from_upload 14015 ms_total 20503 url https://www.ilovepdf.com/ko/download/t0198kfpjA7mthzmm5kqmdzyzkw92s10cqvmjA0dxhrq5rpbcnqhtyhyzrlbryl6vljsvz8ppfm24kmkz2r3076ddv0gcgppf4lmhmx93vvt1905zyq9Ac039x1lzAd75tf84vqz1s6jqnzgpxdbkw9AvttttsAkpfhmn4tfvwpknhr4f9z5z4g81dwfAzlv6dj7t00vrk0c1/55o
+DONE

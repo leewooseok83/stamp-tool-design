@@ -1,0 +1,414 @@
+{
+ "restore_id": "rsdf5f7e2a4baa",
+ "job_id": "hx9717885901",
+ "log": {
+  "pages": [
+   {
+    "page": 1,
+    "text_boxes": 0,
+    "pictures": 0,
+    "shapes": 0,
+    "tables": 0,
+    "skipped_shapes": 0,
+    "rotated": 0,
+    "tables_rejected": 0,
+    "kind": "text",
+    "scan": false,
+    "ocr": null,
+    "pictures_by_source": {
+     "image": 0,
+     "raster_cluster": 0,
+     "unmapped": 0,
+     "band_merge": 0,
+     "image_overflow": 0
+    },
+    "tiles_merged": 0,
+    "flow": true,
+    "columns": 1
+   },
+   {
+    "page": 2,
+    "text_boxes": 0,
+    "pictures": 1,
+    "shapes": 0,
+    "tables": 1,
+    "skipped_shapes": 0,
+    "rotated": 0,
+    "tables_rejected": 0,
+    "kind": "text",
+    "scan": false,
+    "ocr": null,
+    "pictures_by_source": {
+     "image": 1,
+     "raster_cluster": 0,
+     "unmapped": 0,
+     "band_merge": 0,
+     "image_overflow": 0
+    },
+    "tiles_merged": 0,
+    "flow": true,
+    "columns": 1
+   },
+   {
+    "page": 3,
+    "text_boxes": 0,
+    "pictures": 0,
+    "shapes": 0,
+    "tables": 1,
+    "skipped_shapes": 0,
+    "rotated": 0,
+    "tables_rejected": 0,
+    "kind": "text",
+    "scan": false,
+    "ocr": null,
+    "pictures_by_source": {
+     "image": 0,
+     "raster_cluster": 0,
+     "unmapped": 0,
+     "band_merge": 0,
+     "image_overflow": 0
+    },
+    "tiles_merged": 0,
+    "flow": true,
+    "columns": 1
+   },
+   {
+    "page": 4,
+    "text_boxes": 0,
+    "pictures": 1,
+    "shapes": 0,
+    "tables": 0,
+    "skipped_shapes": 0,
+    "rotated": 0,
+    "tables_rejected": 0,
+    "kind": "text",
+    "scan": false,
+    "ocr": null,
+    "pictures_by_source": {
+     "image": 1,
+     "raster_cluster": 0,
+     "unmapped": 0,
+     "band_merge": 0,
+     "image_overflow": 0
+    },
+    "tiles_merged": 0,
+    "flow": true,
+    "columns": 1
+   },
+   {
+    "page": 5,
+    "text_boxes": 0,
+    "pictures": 0,
+    "shapes": 0,
+    "tables": 0,
+    "skipped_shapes": 0,
+    "rotated": 0,
+    "tables_rejected": 0,
+    "kind": "text",
+    "scan": false,
+    "ocr": null,
+    "pictures_by_source": {
+     "image": 0,
+     "raster_cluster": 0,
+     "unmapped": 0,
+     "band_merge": 0,
+     "image_overflow": 0
+    },
+    "tiles_merged": 0,
+    "flow": true,
+    "columns": 1
+   },
+   {
+    "page": 6,
+    "text_boxes": 0,
+    "pictures": 0,
+    "shapes": 0,
+    "tables": 1,
+    "skipped_shapes": 0,
+    "rotated": 0,
+    "tables_rejected": 0,
+    "kind": "text",
+    "scan": false,
+    "ocr": null,
+    "pictures_by_source": {
+     "image": 0,
+     "raster_cluster": 0,
+     "unmapped": 0,
+     "band_merge": 0,
+     "image_overflow": 0
+    },
+    "tiles_merged": 0,
+    "flow": true,
+    "columns": 1
+   }
+  ],
+  "ai_calls": 0,
+  "original_font_names": {
+   "적는 이름": [
+    "HY견고딕",
+    "HY헤드라인M",
+    "Segoe UI",
+    "Segoe UI Semilight",
+    "한컴돋움",
+    "한컴바탕"
+   ],
+   "폭 표 없어 뺀 이름": []
+  },
+  "serif_bold_face": {
+   "굵은 글꼴": "함초롬바탕",
+   "옮기는 이름": [
+    "바탕",
+    "한컴바탕"
+   ]
+  },
+  "fonts": {
+   "NanumGothic": {
+    "to": "나눔고딕",
+    "runs": 0,
+    "metrics": "table",
+    "subsets": {
+     "NanumGothic|67864|4|435": {
+      "match": 1,
+      "matches": [
+       1
+      ],
+      "samples": 1,
+      "dropped": 0,
+      "chars": 14,
+      "page": 1,
+      "verdict": "healthy",
+      "tries": 1
+     }
+    }
+   },
+   "NanumMyeongjo": {
+    "to": "나눔명조",
+    "runs": 0,
+    "metrics": "embed",
+    "subsets": {
+     "NanumMyeongjo|127140|4|435": {
+      "match": 1,
+      "matches": [
+       1
+      ],
+      "samples": 1,
+      "dropped": 0,
+      "chars": 39,
+      "page": 1,
+      "verdict": "healthy",
+      "tries": 1
+     },
+     "NanumMyeongjo|7696|4|435": {
+      "verdict": "undecided",
+      "why": "표본 없음",
+      "page": 6,
+      "matches": [],
+      "chars": 0,
+      "tries": 2
+     }
+    }
+   },
+   "Helvetica": {
+    "to": "맑은 고딕",
+    "runs": 0,
+    "metrics": "table",
+    "subsets": {
+     "Helvetica|15025|32|0": {
+      "verdict": "undecided",
+      "why": "표본 없음",
+      "page": 5,
+      "matches": [],
+      "chars": 0,
+      "tries": 2
+     }
+    }
+   }
+  },
+  "broken_font_ocr_sec": 0.275,
+  "cell_inset_pt": 5.9999847412109375,
+  "size_snapped_runs": 4,
+  "flow": {
+   "flow_pages": 6,
+   "layout_pages": 0,
+   "layout_reasons": {},
+   "flow_text_rows": 44,
+   "inline_pictures": 2,
+   "inline_tables": 3,
+   "inline_tables_centered": 0,
+   "abs_pictures": 0,
+   "abs_shapes": 0,
+   "flow_textboxes": 0,
+   "nonbody_lines": 0,
+   "pagenum_lines": 0,
+   "page_joins": 0,
+   "spacer_paras": 1,
+   "pagenum_multi_pages": 0,
+   "pagenum_picked_fixed": 0,
+   "pagenum_groups": 0,
+   "same_line_merged": 8,
+   "pagenum_hidden_pages": 0,
+   "gap_bridges": 0,
+   "flow_gap_stops": 0,
+   "ocr_boxes_behind": 0,
+   "ocr_boxes_dropped": 0,
+   "pagenum_chars": 0,
+   "ocr_dropped_chars": 0,
+   "run_merges": 0,
+   "run_merge_spaces": 0,
+   "run_merge_stops": 0,
+   "inline_equations": 0,
+   "inline_eq_pictures": 0,
+   "column_pages": 0,
+   "column_segments": 0,
+   "column_rows": 0,
+   "column_splits": 0,
+   "column_stops": 0,
+   "column_fits": 0,
+   "column_overflow": 0,
+   "column_mixed_doc": 0,
+   "form_signals": {
+    "줄수": 52,
+    "쪽수": 6,
+    "단폭": 439.1,
+    "줄채움": 0.288,
+    "짧은줄": 0.5,
+    "줄글자": 21,
+    "끝부호": 0.346,
+    "줄자리": 0
+   },
+   "form_layout": 0,
+   "form_reasons": {
+    "단 없음": 1
+   },
+   "wrap_over_lines": 4,
+   "wrap_over_pt": 0,
+   "wrap_relief_lines": 4,
+   "wrap_relief_pt": 1,
+   "wrap_relief_short": 0,
+   "wrap_over_slot_pt": 68,
+   "spacer_char_fit": 1,
+   "spacer_floor": 0,
+   "mixed_col_pages": 0,
+   "mixed_col_reasons": {},
+   "mixed_col_doc_stop": {},
+   "mixed_col_order_pages": 0,
+   "mixed_col_page_list": [],
+   "column_zone_doc": 0,
+   "column_zone_pages": 0,
+   "column_zone_page_list": [],
+   "column_zone_reasons": {},
+   "column_zone_doc_stop": {
+    "not-mixed": 1
+   },
+   "column_zone_keep_layout_list": [],
+   "column_zone_unfit_list": [],
+   "column_zone_demoted": 0,
+   "column_zone_breach": 0,
+   "column_zone_center_as_left": 0,
+   "column_zone_lend_centi_pt": 0,
+   "space_samples": 23,
+   "space_measured_milli_em": 273,
+   "space_font_milli_em": 273,
+   "space_hangul_milli_em": 500,
+   "space_measure_track": 1,
+   "space_mode": {
+    "font": 1
+   },
+   "space_mode_reason": {
+    "글꼴 빈칸에 가까움": 1
+   },
+   "dist_spread_lines": 8,
+   "dist_spread_ge005": 0,
+   "dist_spread_ge010": 0,
+   "dist_spread_le_m003": 0,
+   "dist_spread_milli_em_p50": 0,
+   "dist_spread_milli_em_p90": 0,
+   "dist_spread_hist": {
+    "-0.05": 4,
+    "0.00": 4
+   }
+  },
+  "script_keep_x": {
+   "script_splits": 0,
+   "script_lifted": 0,
+   "script_split_stops": 0
+  },
+  "pictures_by_source": {
+   "image": 2,
+   "raster_cluster": 0,
+   "unmapped": 0,
+   "band_merge": 0,
+   "image_overflow": 0
+  },
+  "tiles_merged": 0,
+  "natural_metrics": {
+   "조각多": 8,
+   "좁히던줄": 0,
+   "많이벌린줄": 0,
+   "되돌림": 78
+  },
+  "scan_pages": 0,
+  "text_stats": {
+   "true_width_fonts": 0,
+   "true_width_chars": 0,
+   "real_space_joins": 12
+  },
+  "ocr_pages": 0,
+  "ocr_chars": 0,
+  "images": 2,
+  "char_styles": 9,
+  "cell_lines_merged": 0,
+  "cell_edge_spaces_trimmed": 20,
+  "cell_align_center": 0,
+  "cell_align_right_fixed": 0,
+  "inline_obj_box_widened": 0,
+  "cell_line_indents": 32,
+  "notes": [],
+  "size_bytes": 29430,
+  "pages_total": 6,
+  "pages_done": 6,
+  "truncated": false,
+  "elapsed_sec": 0.718,
+  "free_page_cap": 20,
+  "job_id": "hx9717885901",
+  "kind": "hwpx",
+  "src_name": "시험입력_가상보고서.pdf"
+ },
+ "kind": "hwpx",
+ "analysis": {
+  "pages": 6,
+  "pages_to_convert": 6,
+  "text_pages": 6,
+  "scan_pages": 0,
+  "empty_pages": 0,
+  "over_limit": false,
+  "free_max_pages": 20,
+  "free_pages_to_convert": 6,
+  "free_over_limit": false
+ },
+ "size_bytes": 29430,
+ "notes": [
+  "칸이 여러 겹으로 나뉜 복잡한 표나 복잡한 수식은 줄 높이가 커져 아래 내용과 겹칠 수 있습니다.",
+  "스캔한 PDF(글자가 없는 것)는 그림으로만 옮겨질 수 있습니다."
+ ],
+ "expires_in_seconds": 3480,
+ "quota": {
+  "used_today": 1,
+  "limit": 1,
+  "kind": "hwpx_visitor",
+  "by_feature": {
+   "make": {
+    "used_today": 0,
+    "limit": 1
+   },
+   "restore": {
+    "used_today": 0,
+    "limit": 1
+   },
+   "hwpx": {
+    "used_today": 1,
+    "limit": 1
+   }
+  }
+ }
+}
